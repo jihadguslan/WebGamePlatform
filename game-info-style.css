@@ -1,0 +1,205 @@
+/* RESET DASAR */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial Black', sans-serif;
+}
+
+body {
+  background-color: #ffeb00; /* Warna kuning latar belakang */
+  color: #000;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d0b0c;
+  padding: 15px 40px;
+}
+
+.navbar img {
+  height: 30px;
+}
+
+.navbar nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* 1. HERO BANNER SECTION */
+.hero-section {
+  position: relative;
+  height: 80vh;
+  background: url('marble-bg.jpg') center/cover no-repeat; /* Gambar Arena Game */
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.game-logo {
+  max-width: 350px;
+}
+
+.btn-play {
+  background-color: #d94a00;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 0px #000;
+  transition: transform 0.2s;
+}
+
+.btn-play:hover {
+  transform: scale(1.05);
+}
+
+/* 2. ABOUT SECTION */
+.about-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #ffeb00;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.headline {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  line-height: 1.3;
+}
+
+.highlight {
+  background-color: #000;
+  color: #fff;
+  padding: 2px 8px;
+}
+
+/* GALLERY 3 KOLOM */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 8px;
+  border: 3px solid #000;
+}
+
+.description {
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+/* 3. SYSTEM REQUIREMENTS (EFEK SECTION MIRING) */
+.sys-req-section {
+    background-image: url('Aset/BG\ 4.png'); /* Gambar Arena Game */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 20px;
+    position: relative;
+    /* Membuat sudut atas & bawah miring miring diagonal */
+    clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
+}
+
+.section-title {
+  font-size: 28px;
+  font-style: italic;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.spec-card {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.spec-header {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 15px;
+  font-size: 18px;
+}
+
+.spec-list {
+  list-style: none;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #0d0b0c;
+  color: white;
+  padding: 30px 40px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  height: 35px;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.social-btn {
+  flex: 1;
+  background-color: #d97706;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 11px;
+  color: #888;
+  font-family: sans-serif;
+}

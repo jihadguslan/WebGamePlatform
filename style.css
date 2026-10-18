@@ -1,0 +1,244 @@
+.body-page{
+    font-family: Inter, sans-serif;
+    background-image: url("Aset/bg-play-ms.png");
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* STYLING KHUSUS NAVBAR */
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #261919;
+    padding: 15px 30px;
+}
+.navbar-logo{
+        width: 120px;
+        height: auto;
+        align-items: center;
+    }
+
+.navbar nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar a{
+        text-decoration: none;
+        color: #F7F4E8;
+        font-size: 20px;
+        margin-left: 15px;
+        text-align: center;
+        margin: 10px, 15px;
+    }
+
+.navbar a:hover{
+    color: #50391e;
+    text-decoration:none;
+}
+
+/* STYLING KHUSUS UNTUK GAMEPLAY PAGE AJA */
+
+.main-container{
+    h1{
+        margin-bottom:0px;
+    }
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.game-logo{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.game-genre-sub{
+    margin-top: 0px;
+    opacity: 0.7;
+}
+
+
+.game-top-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.preview-box{
+    background-color: #000;
+    border-radius: 12px;
+    overflow: hidden;
+    height:300px;
+    width: 540px;
+}
+
+.game-main-capsule{
+    width : 100%;
+    height : 100%;
+    object-fit : cover;
+}
+
+.game-embed-container{
+    background-color:#261919;
+    border: 5px solid #cc8501;
+    border-radius:18px;
+    height: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.game-embed-container iframe{
+    background-color:#261919;
+    border: 5px solid #cc8501;
+    border-radius:18px;
+    height: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.play-demo-btn{
+    background-color: #ffe606;
+    color: #261919;
+    border: none;
+    font-size: 24px;
+    padding: 15px 30px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight: bold;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.play-demo-btn:hover{
+    transform: scale(1.05);
+    background-color: #e29507;
+}
+
+
+.game-info-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.info-card, .controls-card {
+    h2{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 28px;
+    }
+    h3{
+        font-size:20px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    background-color: #cc8501;
+    color:white;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.controls-grid {
+    display: grid; 
+}
+
+.control-item {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.key-badge{
+    background-color: #261919;
+    color:white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+/* STYLING KHUSUS FOOTER */
+
+
+.footer-bar{
+    background-color: #261919;
+    color:#F7F4E8;
+    padding: 30px 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin-bottom: 25px;
+}
+
+.footer-logo{
+    height: 60px;
+    width: auto;
+    align-items: center;
+}
+
+.footer-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.bottom-footer{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.social-bar{
+    background-color: #261919;
+    border-radius: 15px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.social-btn{
+    width: 30px;
+    height: auto;
+    margin-right: 40px;
+    justify-content: center;
+    padding: 0px 40px;
+    text-decoration: none;
+    color: #F7F4E8;
+}
+
+.social-btn:hover{
+    color: #50391e;
+    text-decoration:none;
+    font-weight: bold;
+}
