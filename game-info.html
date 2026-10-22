@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Marble Storm - OMO Studio</title>
   <link rel="stylesheet" href="game-info-style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-
   <!-- NAVBAR -->
   <header class="navbar">
     <div class="logo">
-      <img src="omo-logo.png" alt="OMO Studio">
+      <img src="Aset/omo-logo.png"alt="OMO Studio">
     </div>
     <nav>
       <a href="#">HOME</a>
@@ -25,13 +25,13 @@
   <!-- 1. HERO BANNER SECTION (BAGIAN ATAS) -->
   <section class="hero-section">
     <div class="hero-content">
-      <img src="marble-storm-logo.png" alt="Marble Storm Logo" class="game-logo">
-      <a href="#" class="btn-play">PLAY DEMO</a>
+      <img src="Aset/ms-logo.png" alt="Marble Storm Logo" class="game-logo">
+      <a href="game-demo.html" class="btn-play">PLAY DEMO</a>
     </div>
   </section>
 
   <!-- 2. ABOUT / GALLERY SECTION (WARNA KUNING) -->
-  <section class="about-section">
+  <section class="about-section" aos-all data-aos="zoom-out" data-aos-duration="500">
     <div class="container">
       <h2 class="headline">
         HOW LONG CAN YOU SURVIVE THIS STORM? THIS IS NO ORDINARY STORM, THIS IS <span class="highlight">MARBLE STORM</span>.
@@ -39,9 +39,9 @@
 
       <!-- GALLERY 3 GAMBAR -->
       <div class="gallery-grid">
-        <div class="gallery-item"><img src="ss1.jpg" alt="Screenshot 1"></div>
-        <div class="gallery-item"><img src="ss2.jpg" alt="Screenshot 2"></div>
-        <div class="gallery-item"><img src="ss3.jpg" alt="Screenshot 3"></div>
+        <div class="gallery-item" data-tilt><img src="https://img.itch.zone/aW1hZ2UvNDY5NDc1Ny8yODIzNTYyNC5wbmc=/original/JUrZyJ.png" alt="Screenshot 1"></div>
+        <div class="gallery-item" data-tilt><img src="https://img.itch.zone/aW1hZ2UvNDY5NDc1Ny8yODIzNTYyNS5wbmc=/347x500/rnLdHG.png" alt="Screenshot 2"></div>
+        <div class="gallery-item" data-tilt><img src="https://img.itch.zone/aW1hZ2UvNDY5NDc1Ny8yODIzNTYzNi5wbmc=/347x500/qqOJSB.png" alt="Screenshot 3"></div>
       </div>
 
       <p class="description">
@@ -51,7 +51,7 @@
   </section>
 
   <!-- 3. SYSTEM REQUIREMENTS (BAGIAN ORANYE MIRING) -->
-  <section class="sys-req-section">
+  <section class="sys-req-section" aos-all data-aos="zoom-out" data-aos-duration="500">
     <div class="container">
       <h2 class="section-title">SYSTEM REQUIREMENTS</h2>
 
@@ -82,19 +82,23 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="footer-top">
-      <img src="omo-logo.png" alt="OMO Studio" class="footer-logo">
+      <img src="Aset/omo-logo.png" alt="OMO Studio" class="footer-logo">
       <span class="footer-title">FOLLOW OUR JOURNEY!</span>
     </div>
 
-    <div class="social-links">
-      <a href="#" class="social-btn">DISCORD</a>
-      <a href="#" class="social-btn">YOUTUBE</a>
-      <a href="#" class="social-btn">INSTAGRAM</a>
-      <a href="#" class="social-btn">TIKTOK</a>
+    <div class="social-links" aos-all>
+      <a href="#" class="social-btn" data-aos="zoom-out" data-aos-duration="500" data-aos-delay="100" data-tilt>DISCORD</a>
+      <a href="#" class="social-btn" data-aos="zoom-out" data-aos-duration="500" data-aos-delay="200" data-tilt>YOUTUBE</a>
+      <a href="#" class="social-btn" data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-tilt>INSTAGRAM</a>
+      <a href="#" class="social-btn" data-aos="zoom-out" data-aos-duration="500" data-aos-delay="400" data-tilt>TIKTOK</a>
     </div>
 
     <p class="copyright">&copy; 2026 OMO Studio. All rights reserved.</p>
   </footer>
-
+  <script type="text/javascript" src="vanila-tilt.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

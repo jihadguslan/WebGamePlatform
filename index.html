@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
     <title>Bunny Dare Production Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game-info-style.css">
     
 </head>
 <body class="body-page">
+    <!-- NAVBAR -->
     <header class="navbar">
-        <nav>
-            <img src="Aset/bunny_dare_logo2.png" alt="Logo Bunny Dare" class="navbar-logo">
-            <a href="#">Home</>
-            <a href="#">News</a>
-            <a href="game-demo.html">Games</a>
-            <a href="#">Career</a>
-            <a href="#">About</a>
-        </nav>
+    <div class="logo">
+        <img src="Aset/omo-logo.png"alt="OMO Studio">
+    </div>
+    <nav>
+        <a href="#">HOME</a>
+        <a href="#">NEWS</a>
+        <a href="#">GAMES</a>
+        <a href="#">CAREER</a>
+        <a href="#">ABOUT</a>
+    </nav>
     </header>
     <p>
         Berdasarkan pengamatan saya, <abbr title="Asosiasi Game Indonesia">AGI</abbr> punya 
@@ -37,22 +40,26 @@
     <p>
         Kemudian, <bdi>Nama Pembicara</bdi> pernah mengatakan, indonesia punya cukup banyak sdm terutama dibidang kreatif, jadi wajar saja jika perkembangan industri mereka cukup berkembang.
     </p>
-    <footer class="footer-bar">
-        <div class="top-footer">
-            <img src="Aset/bunny_dare_logo2.png" alt="Logo Bunny Dare" class="footer-logo">
-            <span class="footer-title">FOLLOW OUR JOURNEY!</span>
-        </div>
-        <div class="bottom-footer">
-            <div class="social-bar">
-                <a href="#" class="social-btn">DISCORD</a>
-                <a href="#" class="social-btn">YOUTUBE</a>
-                <a href="#" class="social-btn">INSTAGRAM</a>
-                <a href="#" class="social-btn">TIKTOK</a>
-            </div>
-            <p class="copyright">
-                © 2024 Bunny Dare. All rights reserved.</p>
-        </div>
+    <footer class="footer">
+    <div class="footer-top">
+        <img src="Aset/omo-logo.png" alt="OMO Studio" class="footer-logo">
+        <span class="footer-title">FOLLOW OUR JOURNEY!</span>
+    </div>
+
+    <div class="social-links" aos-all>
+        <a href="#" class="social-btn" data-aos="zoom-out" data-aos-duration="500" data-aos-delay="100" data-tilt>DISCORD</a>
+        <a href="#" class="social-btn" data-aos="zoom-out" data-aos-duration="500" data-aos-delay="200" data-tilt>YOUTUBE</a>
+        <a href="#" class="social-btn" data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-tilt>INSTAGRAM</a>
+        <a href="#" class="social-btn" data-aos="zoom-out" data-aos-duration="500" data-aos-delay="400" data-tilt>TIKTOK</a>
+    </div>
+
+    <p class="copyright">&copy; 2026 OMO Studio. All rights reserved.</p>
     </footer>
+    <script type="text/javascript" src="vanila-tilt.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>
 
