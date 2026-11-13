@@ -17,7 +17,7 @@ const gamesDatabase = [
             "Aset/prototech_screenshot3.png", 
             "Aset/prototech_screenshot4.png"],
         video_trailer: "https://www.youtube.com/embed/0g1J6k5r7xM",
-        demo_embed: "Games/prototech/index.html",
+        demo_embed: "https://itch.io/embed-upload/18173901?color=ffe762",
         steam_link: "",
         color_style: {
             "bg-color": "#0f0d0c",
@@ -41,7 +41,7 @@ const gamesDatabase = [
             "Aset/marble-storm_screenshot3.png", 
             "Aset/marble-storm_screenshot4.png"],
         video_trailer: "https://www.youtube.com/embed/0g1J6k5r7xM",
-        demo_embed: "Games/marble-storm/index.html",
+        demo_embed: "https://itch.io/embed-upload/18173901?color=ffe762",
         steam_link: "",
         color_style: {
             "bg-color": "#F7E800",
@@ -65,7 +65,7 @@ const gamesDatabase = [
             "Aset/split-by-distance_screenshot3.png", 
             "Aset/split-by-distance_screenshot4.png"],
         video_trailer: "https://www.youtube.com/embed/0g1J6k5r7xM",
-        demo_embed: "Games/split-by-distance/index.html",
+        demo_embed: "https://itch.io/embed-upload/18173901?color=ffe762",
         steam_link: "",
         color_style: {
             "bg-color": "#FFFFFF",
@@ -88,7 +88,7 @@ const gamesDatabase = [
             "Aset/eternal-cropper_screenshot3.png", 
             "Aset/eternal-cropper_screenshot4.png"],
         video_trailer: "https://www.youtube.com/embed/0g1J6k5r7xM",
-        demo_embed: "Games/eternal-cropper/index.html",
+        demo_embed: "https://itch.io/embed-upload/18173901?color=ffe762",
         steam_link: "",
         color_style: {
             "bg-color": "#5C4229",
